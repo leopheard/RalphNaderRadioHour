@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.ralphnaderradiohour" name="Ralph Nader Radio Hour" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Ralph Nader Radio hour</summary>
+    <description lang="en">The Ralph Nader Radio Hour is a weekly talk show broadcast on the Pacifica Radio Network, and is available as a podcast on iTunes. Ralph Nader is joined by co-hosts Steve Skrovan and David Feldman for a lively informative hour of interviews with some of the nation’s most influential movers and shakers, and thought provoking discussions of the weeks news.</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/ralphnaderradiohour.git</source>
+    <website>https://ralphnaderradiohour.com/</website>
+    <audio_guide></audio_guide>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/screen1.jpg</screenshot>
+			<screenshot>resources/media/screen2.jpg</screenshot>
+			<screenshot>resources/media/screen3.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
